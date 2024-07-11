@@ -4,8 +4,10 @@ Overview
 "Vier gewinnt" is a web-based implementation of the classic Connect Four game. This interactive game allows two players to compete in a grid-based environment where the objective is to connect four of their own discs in a row, either horizontally, vertically, or diagonally.
 Features
 
-    Interactive Gameplay: Players take turns to drop their colored discs into a grid, aiming to align four discs consecutively.
-    Dynamic User Interface: The game board is dynamically generated using JavaScript and styled with CSS to ensure a responsive and visually appealing experience.
+    Interactive Gameplay: Players take turns to drop their colored discs into a grid, 
+    aiming to align four discs consecutively.
+    Dynamic User Interface: The game board is dynamically generated using JavaScript and styled with CSS, 
+    to ensure a responsive and visually appealing experience.
     Highscores: Track your game scores and compare them with other players on the highscores board.
 
 How to Play
@@ -28,7 +30,8 @@ Project Files
     index.html: The main HTML file that sets up the game structure.
     styles.css: Contains the CSS rules for styling the game elements.
     script.js: JavaScript file that manages the game logic and player interactions.
-    server.js: Server-side script to handle any backend processes, including database connections (note: database credentials are not included in the public code for security reasons).
+    server.js: Server-side script to handle any backend processes, including database connections
+    (note: database credentials are not included in the public code for security reasons).
 
     Screenshots following for the displaying of the highscore
 
