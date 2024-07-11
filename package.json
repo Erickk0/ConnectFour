@@ -1,0 +1,16 @@
+{
+  "name": "vier-gewinnt",
+  "version": "1.0.0",
+  "description": "Vier gewinnt Spiel mit Node.js und jQuery",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^3.3.1",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

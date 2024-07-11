@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vier gewinnt</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Vier gewinnt</h1>
+    <div id="player-name">
+      <label for="name">Name: </label>
+      <input type="text" id="name">
+      <button onclick="startGame()">Start</button>
+    </div>
+    <div id="board"></div>
+    <div id="highscores">
+      <h2>Highscores</h2>
+      <ul id="score-list"></ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
